@@ -17,6 +17,13 @@
       border: 1px solid #ccc;
       border-radius: 10px;
     }
+    
+    .custom-card {
+      width: fit-content;
+      border: none;
+      margin: 0 auto;
+      padding: 10px;
+    }
   </style>
 </head>
 <body>
@@ -30,10 +37,14 @@
       </div>
     </div>
     <div class="row mt-4">
-      <div class="col-md-12 text-center">
-        <h5>Contact Mark Pecora</h5>
-        <p>281-513-7294</p>
-        <p>pecorams [at] sbcglobal.com</p>
+      <div class="col-md-6 offset-md-3">
+        <div class="card custom-card">
+          <div class="card-body">
+            <h5 class="card-title">Contact Mark Pecora</h5>
+            <p class="card-text"><a href="tel:2815137294">281-513-7294</a></p>
+            <p class="card-text"><a href="mailto:pecorams@sbcglobal.com">pecorams@sbcglobal.com</a></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
